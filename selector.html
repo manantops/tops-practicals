@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<p> adjacent siblings div + p  it take first after div</p>
+<p> child sibling div > p</p>
+<p>desendent sibling div p it take all element in div</p>
+<p>general sibling div ~ p it take all tags after div</p>
+
+<style>
+    div > p {
+        background-color: red;
+    }
+</style>
+<body>
+    <p> i am out of div</p>
+
+    <p> i am out of div</p>
+
+    <p>i am out of div</p>
+
+    <div>
+        <p> i am in div</p>
+        <p> i am in div</p>
+        <p> i am in div</p>
+        <p> i am in div</p>
+
+  <span>
+    <p> i am span tag</p>
+  </span>
+
+        <section>
+
+            <p> i am inside div other div</p>
+            <p> i am inside div other div</p>
+            <p> i am inside div other div</p>
+
+    </section>
+    </div>
+
+        <p> i am out of div</p>
+        <p>i am out of div</p>
+        <p>i am out of div</p>
+
+    
+    <div>
+        <p> i am in div</p>
+        <p> i am in div</p>
+        <p> i am in div</p>
+        <p> i am in div</p>
+
+    </div>
+
+    <p> i am out of div</p>
+    
+</body>
+</html>
